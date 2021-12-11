@@ -1,0 +1,13 @@
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\bin\Debug\netcoreapp3.1\SevenSegmentSearch.exe
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\bin\Debug\netcoreapp3.1\SevenSegmentSearch.deps.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\bin\Debug\netcoreapp3.1\SevenSegmentSearch.runtimeconfig.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\bin\Debug\netcoreapp3.1\SevenSegmentSearch.runtimeconfig.dev.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\bin\Debug\netcoreapp3.1\SevenSegmentSearch.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\bin\Debug\netcoreapp3.1\SevenSegmentSearch.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.csprojAssemblyReference.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.csproj.CoreCompileInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.AssemblyInfoInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.AssemblyInfo.cs
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 8 - Seven Segment Search\obj\Debug\netcoreapp3.1\SevenSegmentSearch.genruntimeconfig.cache
