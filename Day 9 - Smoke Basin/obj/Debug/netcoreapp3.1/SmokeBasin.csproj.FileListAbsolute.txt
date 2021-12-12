@@ -1,0 +1,13 @@
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\bin\Debug\netcoreapp3.1\SmokeBasin.exe
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\bin\Debug\netcoreapp3.1\SmokeBasin.deps.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\bin\Debug\netcoreapp3.1\SmokeBasin.runtimeconfig.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\bin\Debug\netcoreapp3.1\SmokeBasin.runtimeconfig.dev.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\bin\Debug\netcoreapp3.1\SmokeBasin.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\bin\Debug\netcoreapp3.1\SmokeBasin.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.csprojAssemblyReference.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.csproj.CoreCompileInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.AssemblyInfoInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.AssemblyInfo.cs
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 9 - Smoke Basin\obj\Debug\netcoreapp3.1\SmokeBasin.genruntimeconfig.cache
