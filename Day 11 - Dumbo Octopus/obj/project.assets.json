@@ -1,36 +1,41 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\jshar\\.nuget\\packages\\": {}
+    "C:\\Users\\jsharp\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\AdventOfCode2021\\Day 11 - Dumbo Octopus\\DumboOctopus.csproj",
+      "projectUniqueName": "C:\\Users\\jsharp\\AdventOfCode\\AdventOfCode2021\\Day 11 - Dumbo Octopus\\DumboOctopus.csproj",
       "projectName": "DumboOctopus",
-      "projectPath": "C:\\source\\AdventOfCode2021\\Day 11 - Dumbo Octopus\\DumboOctopus.csproj",
-      "packagesPath": "C:\\Users\\jshar\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\AdventOfCode2021\\Day 11 - Dumbo Octopus\\obj\\",
+      "projectPath": "C:\\Users\\jsharp\\AdventOfCode\\AdventOfCode2021\\Day 11 - Dumbo Octopus\\DumboOctopus.csproj",
+      "packagesPath": "C:\\Users\\jsharp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jsharp\\AdventOfCode\\AdventOfCode2021\\Day 11 - Dumbo Octopus\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jshar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jsharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
           "projectReferences": {}
         }
       },
@@ -41,8 +46,7 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "netcoreapp3.1": {
         "imports": [
           "net461",
           "net462",
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

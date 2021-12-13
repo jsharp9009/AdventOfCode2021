@@ -2,6 +2,8 @@
 using System.IO;
 using System.Linq;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace DumboOctopus
 {
@@ -18,8 +20,22 @@ namespace DumboOctopus
                 }
             }
 
-            for(int i = 0; i < 1; i++){
-                ProcessStep(octopusMap);
+            var blunk = 0;
+            var step = 0;
+            while(true){
+                var blunkThisStep = ProcessStep(octopusMap);
+                blunk += blunkThisStep;
+                if(step == 99){
+                    Console.WriteLine("blink count at step 100: " + blunk);
+                }
+                if(blunkThisStep == 100){
+                    Console.WriteLine("all blink on step: " + (step+1));
+                    break;
+                }
+                step++;
+
+                if(step > 1000)
+                    break;
             }
 
             for(int i = 0; i < lines.Count(); i++){
@@ -30,9 +46,11 @@ namespace DumboOctopus
                 }
                 Console.WriteLine();
             }
+
+            
         }
 
-        static void ProcessStep(Octopus[,] octopusMap){
+        static int ProcessStep(Octopus[,] octopusMap){
             var taskPool = new List<Task>();
             for(int i = 0; i < octopusMap.GetLength(0); i++)
                 for(int n = 0; n < octopusMap.GetLength(1); n++){
@@ -43,86 +61,97 @@ namespace DumboOctopus
 
             for(int i = 0; i < octopusMap.GetLength(0); i++)
                 for(int n = 0; n < octopusMap.GetLength(1); n++){
-                    if(octopusMap[i, n].Flashing){
+                    if(octopusMap[i, n].Power == 0){
                         ProcessBlink(i, n, octopusMap);
                     }
                 }
-            
+            int blunk = 0;
             taskPool.Clear();
             for(int i = 0; i < octopusMap.GetLength(0); i++)
                 for(int n = 0; n < octopusMap.GetLength(1); n++){
-                    taskPool.Add(CheckResetPower(octopusMap[i, n]));
+                    if(octopusMap[i,n].Blunk) blunk++;
+                    taskPool.Add(ResetBlunk(octopusMap[i, n]));
                 }
 
             Task.WaitAll(taskPool.ToArray());
+
+            return blunk;
         }
 
         static async Task ProcessOctopus(Octopus o){
             o.Power++;
-            if(o.Power == 9)
-                o.Flashing = true;
-        }
-
-        static async Task CheckResetPower(Octopus o){
-            if(o.Power == 9){
+            if(o.Power > 9){
                 o.Power = 0;
-                o.Flashing = false;
             }
         }
 
+        static async Task ResetBlunk(Octopus o){
+            o.Blunk = false;
+        }
+
         static void ProcessBlink(int i, int n, Octopus[,] octopusMap){
-            if((i -1) >= 0 && !octopusMap[i-1,n].Flashing){
+            if(octopusMap[i, n].Blunk)
+                return;
+
+            if((i -1) >= 0) {
+
+                if(octopusMap[i-1,n].Power != 0){
                 Task.WaitAll(ProcessOctopus(octopusMap[i-1,n]));
-                if(octopusMap[i-1,n].Flashing)
+                if(octopusMap[i-1,n].Power == 0)
                     ProcessBlink(i-1, n, octopusMap);
+                }
                 
-                if((n-1) >= 0 && !octopusMap[i - 1, n - 1].Flashing){
+                if((n-1) >= 0 && octopusMap[i - 1, n - 1].Power != 0){
                     Task.WaitAll(ProcessOctopus(octopusMap[i-1,n-1]));
-                    if(octopusMap[i-1,n-1].Flashing)
+                    if(octopusMap[i-1,n-1].Power == 0)
                         ProcessBlink(i-1, n-1, octopusMap);
                 }
 
-                if((n+1) < octopusMap.GetLength(1) && !octopusMap[i - 1, n + 1].Flashing){
+                if((n+1) < octopusMap.GetLength(1) && octopusMap[i - 1, n + 1].Power != 0){
                     Task.WaitAll(ProcessOctopus(octopusMap[i-1,n+1]));
-                    if(octopusMap[i-1,n+1].Flashing)
+                    if(octopusMap[i-1,n+1].Power == 0)
                         ProcessBlink(i-1, n+1, octopusMap);
                 }
             }
 
-            if((i + 1) < octopusMap.GetLength(0) && !octopusMap[i+ 1,n].Flashing){
+            if((i + 1) < octopusMap.GetLength(0)){
+                if(octopusMap[i+ 1,n].Power != 0){
                 Task.WaitAll(ProcessOctopus(octopusMap[i + 1,n]));
-                if(octopusMap[i+ 1,n].Flashing)
+                if(octopusMap[i+ 1,n].Power == 0)
                     ProcessBlink(i+ 1, n, octopusMap);
+                }
                 
-                if((n-1) >= 0 && !octopusMap[i + 1, n - 1].Flashing){
+                if((n-1) >= 0 && octopusMap[i + 1, n - 1].Power != 0){
                     Task.WaitAll(ProcessOctopus(octopusMap[i + 1,n-1]));
-                    if(octopusMap[i+ 1,n-1].Flashing)
+                    if(octopusMap[i+ 1,n-1].Power == 0)
                         ProcessBlink(i+1, n-1, octopusMap);
                 }
 
-                if((n+1) < octopusMap.GetLength(1) && !octopusMap[i + 1, n + 1].Flashing){
+                if((n+1) < octopusMap.GetLength(1) && octopusMap[i + 1, n + 1].Power != 0){
                     Task.WaitAll(ProcessOctopus(octopusMap[i+1,n+1]));
-                    if(octopusMap[i+1,n+1].Flashing)
+                    if(octopusMap[i+1,n+1].Power == 0)
                         ProcessBlink(i+1, n+1, octopusMap);
                 }
             }
 
-            if((n-1) >= 0 && !octopusMap[i, n - 1].Flashing){
+            if((n-1) >= 0 && octopusMap[i, n - 1].Power != 0){
                     Task.WaitAll(ProcessOctopus(octopusMap[i,n-1]));
-                    if(octopusMap[i,n-1].Flashing)
+                    if(octopusMap[i,n-1].Power == 0)
                         ProcessBlink(i, n-1, octopusMap);
                 }
 
-                if((n+1) < octopusMap.GetLength(1) && !octopusMap[i, n + 1].Flashing){
+                if((n+1) < octopusMap.GetLength(1) && octopusMap[i, n + 1].Power != 0){
                     Task.WaitAll(ProcessOctopus(octopusMap[i,n+1]));
-                    if(octopusMap[i,n+1].Flashing)
+                    if(octopusMap[i,n+1].Power == 0)
                         ProcessBlink(i, n+1, octopusMap);
                 }
+
+                octopusMap[i, n].Blunk = true;
         }
     }
 
     class Octopus{
         public int Power{get;set;}
-        public bool Flashing{get;set;}
+        public bool Blunk{get;set;}
     }
 }

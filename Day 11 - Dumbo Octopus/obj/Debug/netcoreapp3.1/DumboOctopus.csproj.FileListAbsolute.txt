@@ -1,0 +1,13 @@
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.csprojAssemblyReference.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.csproj.CoreCompileInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.AssemblyInfoInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.AssemblyInfo.cs
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\bin\Debug\netcoreapp3.1\DumboOctopus.exe
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\bin\Debug\netcoreapp3.1\DumboOctopus.deps.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\bin\Debug\netcoreapp3.1\DumboOctopus.runtimeconfig.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\bin\Debug\netcoreapp3.1\DumboOctopus.runtimeconfig.dev.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\bin\Debug\netcoreapp3.1\DumboOctopus.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\bin\Debug\netcoreapp3.1\DumboOctopus.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 11 - Dumbo Octopus\obj\Debug\netcoreapp3.1\DumboOctopus.genruntimeconfig.cache
