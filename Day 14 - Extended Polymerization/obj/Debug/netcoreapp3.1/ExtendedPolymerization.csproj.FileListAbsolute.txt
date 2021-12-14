@@ -1,0 +1,13 @@
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\bin\Debug\netcoreapp3.1\ExtendedPolymerization.exe
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\bin\Debug\netcoreapp3.1\ExtendedPolymerization.deps.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\bin\Debug\netcoreapp3.1\ExtendedPolymerization.runtimeconfig.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\bin\Debug\netcoreapp3.1\ExtendedPolymerization.runtimeconfig.dev.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\bin\Debug\netcoreapp3.1\ExtendedPolymerization.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\bin\Debug\netcoreapp3.1\ExtendedPolymerization.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.csprojAssemblyReference.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.csproj.CoreCompileInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.AssemblyInfoInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.AssemblyInfo.cs
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 14 - Extended Polymerization\obj\Debug\netcoreapp3.1\ExtendedPolymerization.genruntimeconfig.cache
