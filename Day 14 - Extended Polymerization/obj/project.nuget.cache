@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qmdJ4yXh2Gg1sLW9WhoQ2ri2yKHODCL/2/VFArVKSVSvhRa3JaUea7VGJoVBV26SVgel1fKVXqTWzjb5hRIH/w==",
+  "dgSpecHash": "nwl2hPRiA/LTd21Q8bqFBIhQXoc5aFnhWNxDgfqWEh/nKtZMxplub7sytyB29O19mHNAwkSODqbaVgD05aLPrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jsharp\\AdventOfCode\\AdventOfCode2021\\Day 14 - Extended Polymerization\\ExtendedPolymerization.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\source\\AdventOfCode2021\\Day 14 - Extended Polymerization\\ExtendedPolymerization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }
