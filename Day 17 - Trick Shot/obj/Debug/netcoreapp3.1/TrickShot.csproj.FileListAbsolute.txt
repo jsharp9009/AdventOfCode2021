@@ -1,0 +1,13 @@
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\bin\Debug\netcoreapp3.1\TrickShot.exe
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\bin\Debug\netcoreapp3.1\TrickShot.deps.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\bin\Debug\netcoreapp3.1\TrickShot.runtimeconfig.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\bin\Debug\netcoreapp3.1\TrickShot.runtimeconfig.dev.json
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\bin\Debug\netcoreapp3.1\TrickShot.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\bin\Debug\netcoreapp3.1\TrickShot.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.csprojAssemblyReference.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.csproj.CoreCompileInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.AssemblyInfoInputs.cache
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.AssemblyInfo.cs
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.dll
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.pdb
+C:\Users\jsharp\AdventOfCode\AdventOfCode2021\Day 17 - Trick Shot\obj\Debug\netcoreapp3.1\TrickShot.genruntimeconfig.cache
