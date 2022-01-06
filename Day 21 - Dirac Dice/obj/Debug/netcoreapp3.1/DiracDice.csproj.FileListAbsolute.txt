@@ -1,0 +1,13 @@
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\bin\Debug\netcoreapp3.1\DiracDice.exe
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\bin\Debug\netcoreapp3.1\DiracDice.deps.json
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\bin\Debug\netcoreapp3.1\DiracDice.runtimeconfig.json
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\bin\Debug\netcoreapp3.1\DiracDice.runtimeconfig.dev.json
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\bin\Debug\netcoreapp3.1\DiracDice.dll
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\bin\Debug\netcoreapp3.1\DiracDice.pdb
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.csprojAssemblyReference.cache
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.csproj.CoreCompileInputs.cache
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.AssemblyInfoInputs.cache
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.AssemblyInfo.cs
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.dll
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.pdb
+C:\users\jsharp\AdventOfCode\AdventOfCode2021\Day 21 - Dirac Dice\obj\Debug\netcoreapp3.1\DiracDice.genruntimeconfig.cache
