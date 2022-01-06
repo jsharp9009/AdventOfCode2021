@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\jshar\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jshar\\.nuget\\packages"
+      "C:\\Users\\jsharp\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jsharp\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
