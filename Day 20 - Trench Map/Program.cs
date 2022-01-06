@@ -14,9 +14,12 @@ namespace TrenchMap
             var algorithm = ReadEhancementAlgorithm(input[0]);
             var image = ReadImage(input.Skip(2).ToArray());
 
-            DrawImage(image);
-            
-            image = ProcessImage(image, algorithm);
+            //DrawImage(image);
+            for(int i = 0; i < 2; i++){
+                image = ProcessImage(image, algorithm);
+            }
+
+            image = DeExtendImage(image);
 
             DrawImage(image);
 
@@ -57,23 +60,49 @@ namespace TrenchMap
 
         static List<List<int>> ExtendImage(List<List<int>> image){
             foreach(var line in image){
-                line.AddRange(Enumerable.Repeat((int)0, 3));
-                line.InsertRange(0,Enumerable.Repeat((int)0, 3));
+                line.AddRange(new int[]{0, 0});
+                line.InsertRange(0, new int[]{0, 0});
             }
 
-            image.AddRange(Enumerable.Repeat(Enumerable.Repeat((int)0, image[0].Count).ToList(), 3));
-            image.InsertRange(0, Enumerable.Repeat(Enumerable.Repeat((int)0, image[0].Count).ToList(), 3));
+            for(int i = 0; i < 2; i++){
+                image.Add(NewZeroList(image[0].Count));
+                image.Insert(0, NewZeroList(image[0].Count));
+            }
 
             return image;
         }
 
+        static List<List<int>> DeExtendImage(List<List<int>> image){
+            image.RemoveRange(0, 1);
+            image.RemoveRange(image.Count - 1, 1);
+            foreach(var line in image){
+                line.RemoveRange(0, 1);
+                line.RemoveRange(line.Count - 1, 1);
+            }
+            return image;
+        }
+
+        static List<int> NewZeroList(int size){
+            var ret = new List<int>();
+            for(int i = 0; i < size; i++){
+                ret.Add(0);
+            }
+            return ret;
+        }
+
         static List<List<int>> NewImage(int height, int width){
-            return Enumerable.Repeat(Enumerable.Repeat((int)0, width).ToList(), height).ToList();
+            var ret = new List<List<int>>();
+            for(int i = 0; i < height; i++){
+                var list = new List<int>();
+                list.AddRange(NewZeroList(width));
+                ret.Add(list);
+            }
+            return ret;
         }
 
         static List<List<int>> ProcessImage(List<List<int>> image, List<int> algorithm){
             var extended = ExtendImage(image);
-            DrawImage(extended);
+            //DrawImage(extended);
             var newImage = NewImage(extended.Count, extended[0].Count);
 
             for(int i = 1; i < extended.Count - 1; i++){

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "X/9jKH6L870V9lKgAT0P4vxBqT9iIw+g956srtQPMJX4MqxBF02mmoYd5kzr20N8RsoWzAMaxJAYfYBU+FhgGg==",
+  "dgSpecHash": "0Lj0hKaQVDNukIt2JKYOA3O6qXG997UD7Amkue+5tVHbUI+rMMAxpurrHgiJ5oWLTszGWbNMKPlrrtvOq3C3bQ==",
   "success": true,
-  "projectFilePath": "C:\\users\\jsharp\\AdventOfCode\\AdventOfCode2021\\Day 20 - Trench Map\\TrenchMap.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\source\\AdventOfCode2021\\Day 20 - Trench Map\\TrenchMap.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }
