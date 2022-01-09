@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "g06HLueeT1axG8PndciLoLFQeVnbP0KXTX/NJFeLkSWJF1Yo1LGI0NOsyU5d+tCbebVuQe09ukMeDSpeCmxK8g==",
+  "success": true,
+  "projectFilePath": "C:\\source\\AdventOfCode2021\\Day 22 - Reactor Reboot\\ReactorReboot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jshar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}
